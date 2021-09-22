@@ -166,18 +166,29 @@ ul li a:hover {
 #skills {
   min-height: 500px;
   display: flex;
-  flex-direction: column;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
   background-color: #ececec;
 }
 
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.skill-list{
+  width: 500px;
 }
+
+.skill {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 85%; background-color: #2196F3;}
+.js {width: 70%; background-color: #f44336;}
+.boot {width: 80%; background-color: #87d125;}
+.react {width: 70%; background-color: #d8790d;}
 
 .skill-icon {
   font-size: 50px;
@@ -189,9 +200,7 @@ ul li a:hover {
 }
 
 .icon-container {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
+  width: 100%;
   text-align: center;
 }
 
